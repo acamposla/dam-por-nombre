@@ -94,9 +94,8 @@ sale como se espera.
 
 ## Diferencias con el original
 
-- El original iba contra Sales Layer. La nomenclatura, los campos del PIM y el analizador de
-  nombres quedaron hechos y probados, pero la conexión con la API no llegó a montarse y el sistema
-  no entró en producción.
+- El original iba contra Sales Layer y se usó en interno: cada archivo entraba en su campo del PIM
+  y los catálogos de InDesign lo sacaban de ahí por el conector. Aquí el PIM es un diccionario.
 - El original decidía si un identificador era producto o tema por su forma (solo letras: tema), y
   dejó anotado que eso no distingue un modelo de una campaña. Aquí se consulta el catálogo.
 - El original rechazaba un nombre no válido sin decir por qué. Aquí cada rechazo lleva su motivo,
